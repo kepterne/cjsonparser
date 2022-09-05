@@ -1,6 +1,6 @@
 #include  <stdio.h>
 
-
+#define	LogPrint	printf
 
 void	JSONTest(char *fname, void *cb) {
 	FILE	*fp = fopen(fname, "r");
